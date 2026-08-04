@@ -35,13 +35,13 @@ Users should be able to:
 
 ### Screenshot
 
-![DigitalBank Landing Page Screenshot](/images/screenshot.png)
-![DigitalBank Landing Page Dark Mode](/images/screenshot-dark.png)
+![DigitalBank Landing Page Screenshot](./screenshot.png)
+![DigitalBank Landing Page Dark Mode](./screenshot-dark.png)
 
 ### Links
 
 - Live Site: https://brilliant-sunflower-224589.netlify.app/
-- Frontend Mentor Solution:
+- Frontend Mentor Solution: https://www.frontendmentor.io/solutions/responsive-bank-landing-page-with-react-and-tailwind-css-vYHLMCHOhq
 
 ---
 
