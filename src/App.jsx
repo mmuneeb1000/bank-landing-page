@@ -8,9 +8,11 @@ export default function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Features />
-      <Articles />
+      <main className="relative">
+        <Hero />
+        <Features />
+        <Articles />
+      </main>
       <Footer />
     </>
   );
