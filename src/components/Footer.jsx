@@ -91,9 +91,11 @@ export default function Footer() {
           </div>
         </nav>
 
-        {/* CTA + Copyright */}
         <div className="flex flex-col items-center gap-6 lg:items-end">
-          <button className="rounded-full bg-gradient-to-r from-green-400 to-cyan-400 px-7 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-80">
+          <button
+            className="rounded-full bg-gradient-to-r from-secondary to-accent
+           px-7 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-80"
+          >
             Request Invite
           </button>
 

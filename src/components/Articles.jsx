@@ -11,7 +11,7 @@ export default function Articles() {
           {articles.map((article) => (
             <article
               key={article.title}
-              className="overflow-hidden rounded-md bg-gray-50"
+              className="overflow-hidden rounded-md bg-white"
             >
               <img
                 src={article.image}
@@ -22,7 +22,10 @@ export default function Articles() {
               <div className="p-6">
                 <p className="text-[10px] text-muted">By {article.author}</p>
 
-                <h3 className="mt-2 text-lg font-light leading-6 text-primary transition-colors hover:text-green-500">
+                <h3
+                  className="mt-2 text-lg font-light leading-6 text-primary 
+                transition-colors hover:text-green-500"
+                >
                   <a href="#">{article.title}</a>
                 </h3>
 

@@ -4,9 +4,23 @@ import BgMobile from "/images/bg-intro-mobile.svg";
 
 export default function Hero() {
   return (
-    <section className="relative z-50 overflow-x-hidden bg-surface">
-      <div className="mx-auto flex max-w-7xl flex-col-reverse items-center lg:flex-row lg:gap-12 lg:px-8">
-        <div className="px-6 py-16 text-center lg:w-1/2 lg:px-0 lg:py-24 lg:text-left">
+    <section className="relative z-20 overflow-visible bg-white">
+      <div className="mx-auto flex max-w-7xl flex-col-reverse items-center lg:flex-row lg:px-8">
+        <div
+          className="
+              px-6
+              pt-16
+              pb-28
+              text-center
+
+              sm:pb-36
+
+              lg:w-1/2
+              lg:px-0
+              lg:py-24
+              lg:text-left
+            "
+        >
           <h1 className="text-4xl font-light leading-tight text-primary sm:text-5xl lg:text-6xl">
             Next generation
             <br />
@@ -24,8 +38,11 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="relative flex h-[320px] w-full items-center justify-center lg:h-[600px] lg:w-1/2">
-          {/* Mobile background */}
+        <div
+          className="relative flex h-[320px] w-full 
+        items-center justify-center 
+        sm:h-[400px] lg:h-[600px] lg:w-1/2"
+        >
           <img
             src={BgMobile}
             alt=""
@@ -33,7 +50,6 @@ export default function Hero() {
             className="absolute -right-24 -top-32 w-[550px] max-w-none lg:hidden"
           />
 
-          {/* Desktop background */}
           <img
             src={BgDesktop}
             alt=""
@@ -44,7 +60,23 @@ export default function Hero() {
           <img
             src={Mockups}
             alt="Easybank mobile banking app"
-            className="absolute z-100 w-[110%] max-w-[500px] lg:absolute lg:-right-32 lg:max-w-[700px]"
+            className="
+              absolute
+              z-30
+              w-[95%]
+              max-w-[450px]
+
+              -bottom-14
+
+              sm:-bottom-20
+              sm:w-[85%]
+
+              lg:-right-32
+              lg:top-1/2
+              lg:-translate-y-1/2
+              lg:w-auto
+              lg:max-w-[700px]
+             "
           />
         </div>
       </div>
