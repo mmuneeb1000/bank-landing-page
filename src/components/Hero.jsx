@@ -75,7 +75,7 @@ export default function Hero() {
               lg:top-1/2
               lg:-translate-y-1/2
               lg:w-auto
-              lg:max-w-[700px]
+              lg:max-w-[650px]
              "
           />
         </div>
