@@ -4,7 +4,7 @@ import BgMobile from "/images/bg-intro-mobile.svg";
 
 export default function Hero() {
   return (
-    <section className="relative z-50 bg-surface">
+    <section className="relative z-50 overflow-x-hidden bg-surface">
       <div className="mx-auto flex max-w-7xl flex-col-reverse items-center lg:flex-row lg:gap-12 lg:px-8">
         <div className="px-6 py-16 text-center lg:w-1/2 lg:px-0 lg:py-24 lg:text-left">
           <h1 className="text-4xl font-light leading-tight text-primary sm:text-5xl lg:text-6xl">
