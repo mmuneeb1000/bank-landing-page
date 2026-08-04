@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Screenshot
 
-![DigitalBank Landing Page Screenshot](/screenshot.png)
-![DigitalBank Landing Page Dark Mode](/screenshot-dark.png)
+![DigitalBank Landing Page Screenshot](/images/screenshot.png)
+![DigitalBank Landing Page Dark Mode](/images/screenshot-dark.png)
 
 ### Links
 
