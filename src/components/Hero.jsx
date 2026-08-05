@@ -4,22 +4,20 @@ import BgMobile from "/images/bg-intro-mobile.svg";
 
 export default function Hero() {
   return (
-    <section className="relative z-20 overflow-visible bg-white">
+    <section className="relative z-20 overflow-x-clip overflow-y-visible bg-white">
       <div className="mx-auto flex max-w-7xl flex-col-reverse items-center lg:flex-row lg:px-8">
         <div
           className="
-              px-6
-              pt-16
-              pb-28
-              text-center
-
-              sm:pb-36
-
-              lg:w-1/2
-              lg:px-0
-              lg:py-24
-              lg:text-left
-            "
+            px-6
+            pb-28
+            pt-16
+            text-center
+            sm:pb-36
+            lg:w-1/2
+            lg:px-0
+            lg:py-24
+            lg:text-left
+          "
         >
           <h1 className="text-4xl font-light leading-tight text-primary sm:text-5xl lg:text-6xl">
             Next generation
@@ -39,9 +37,13 @@ export default function Hero() {
         </div>
 
         <div
-          className="relative flex h-[320px] w-full 
-        items-center justify-center 
-        sm:h-[400px] lg:h-[600px] lg:w-1/2"
+          className="
+    relative flex h-[320px] w-full items-center justify-center
+    [clip-path:inset(-100vmax_0_-100vmax_-100vmax)]
+    sm:h-[400px]
+    lg:h-[600px]
+    lg:w-1/2
+  "
         >
           <img
             src={BgMobile}
@@ -54,29 +56,26 @@ export default function Hero() {
             src={BgDesktop}
             alt=""
             aria-hidden="true"
-            className="absolute -right-72 -top-72 hidden w-[800px] max-w-none lg:block"
+            className="absolute -right-24 -top-72 hidden w-[800px] max-w-none lg:block"
           />
 
           <img
             src={Mockups}
             alt="Easybank mobile banking app"
             className="
-              absolute
-              z-30
-              w-[95%]
-              max-w-[450px]
-
-              -bottom-14
-
-              sm:-bottom-20
-              sm:w-[85%]
-
-              lg:-right-32
-              lg:top-1/2
-              lg:-translate-y-1/2
-              lg:w-auto
-              lg:max-w-[650px]
-             "
+      absolute
+      -bottom-14
+      z-30
+      w-[95%]
+      max-w-[450px]
+      sm:-bottom-20
+      sm:w-[85%]
+      lg:-right-32
+      lg:top-1/2
+      lg:w-auto
+      lg:max-w-[650px]
+      lg:-translate-y-1/2
+    "
           />
         </div>
       </div>
